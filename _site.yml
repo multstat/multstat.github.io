@@ -8,7 +8,7 @@ navbar:
       href: about.html
     - text: "Plans"
       href: plans.html
-    - text: "~~Dead~~lifelines"
+    - text: "lines"
       href: deadlines.html
   right: 
     - text: "Contact me"
@@ -19,5 +19,5 @@ navbar:
       href: https://github.com/Maria150719       # CHANGE HERE 
 output:
   html_document:
-    theme: journal
+    theme: united
     
