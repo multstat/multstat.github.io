@@ -59,10 +59,3 @@ Each field goal is a success or failure. Notice that we could further divide fai
  
 1) <a href="lab1.R" title=>Lab session 1</a> 
  
-----style.css
- 
-img {
-  width: 400px;
-  display: block;
-  margin: 0 auto;
-}
