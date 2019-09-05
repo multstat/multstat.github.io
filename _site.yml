@@ -13,7 +13,7 @@ navbar:
   right: 
     - text: "Contact me"
       icon: fa-envelope-o
-      href: mailto:mar.sella@yandex.ru                    # CHANGE HERE 
+      href: mailto:darysalnikova@yandex.ru; mar.sella@yandex.ru                    # CHANGE HERE 
     - text: "GitHub"
       icon: fa-github
       href: https://github.com/Maria150719       # CHANGE HERE 
