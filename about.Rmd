@@ -1,0 +1,8 @@
+---
+title: "About Me"
+---
+ 
+- __Name:__ Daria
+- __Ocupation:__ "Instructor"
+- __Hobbies:__ Dancing 
+ 

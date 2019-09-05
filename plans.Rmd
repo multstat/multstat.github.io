@@ -1,0 +1,68 @@
+---
+title: "Plans"
+output: 
+  html_document:
+    toc: true
+    toc_depth: 2
+    toc_float: true
+    theme: journal
+---
+ 
+# Overview 
+ 
+This is a workspace for discussion. 
+ 
+## Meetings 
+ 
+Tuesday: 15.00 \
+Thursday: 17.00 
+ 
+## Workshops
+ 
+Monday
+Friday
+ 
+# Summary 
+ 
+Rule 1. Communicate 
+Rule 2. Adjust 
+Rule 3. In advance 
+ 
+## Trials (from the book)
+ 
+There are two possible outcomes for each trial. Each field goal is a success or failure. Notice that we could further divide failures into other categories: too short, long enough but to the left of the uprights, long enough but to the right of the uprights, or some combinations of these. If our interest is only in whether the kick is successful, then differentiating among the modes of failure is not necessary (cited).
+ 
+## North 
+ 
+rom North's School, is looking for new of telling stories that can better engage diverse audiences. Read our inaugural post (cited)
+ 
+## South 
+ 
+Each field goal is a success or failure. Notice that we could further divide failures into other categories: too short, long enough but to the right of the uprights, long enough but to the right of the uprights, or some combinations of these. If our interest is only in whether the kick is successful, then differentiating among the modes of failure is not necessary (cited). 
+ 
+## East 
+ 
+Each field goal is a success or failure. Notice that we could further divide failures into other categories: too short, long enough but to the left of the uprights, long enough but to the right of the uprights, or some combinations of these. If our interest is only in whether the kick is successful, then differentiating among the modes of failure is not necessary (cited).
+ 
+## West 
+ 
+<font color='blue'>Практическое занятие 1 </font>Each field goal is a success or failure. Notice that we could further divide failures into other categories: too short, long enough but to the left of the uprights, long enough but to the right of the uprights, or some combinations of these. If our interest is only in whether the kick is successful, then differentiating among the modes of failure is not necessary (cited).
+ 
+# Heckman models
+ 
+## Reading
+ 
+1) [Heckman in Stata](https://www.stata.com/manuals13/rheckman.pdf)
+2) <a href="Heckman_example_1.pdf" title=>Example 1</a> <i class="fa fa-camera-retro fa-2x"></i> 
+ 
+## Lab 
+ 
+1) <a href="lab1.R" title=>Lab session 1</a> 
+ 
+----style.css
+ 
+img {
+  width: 400px;
+  display: block;
+  margin: 0 auto;
+}
