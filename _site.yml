@@ -1,6 +1,6 @@
 output_dir: "."
 navbar:
-  title: "Multivariate statistics by Maria"
+  title: "Multivariate statistics with Daria"
   left:
     - text: "Home"
       href: index.html
