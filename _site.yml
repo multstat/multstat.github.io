@@ -19,7 +19,7 @@ navbar:
       href: https://github.com/Maria150719       # CHANGE HERE 
 output:
   html_document:
-    theme: darkly
+    theme: united
     
     
     
