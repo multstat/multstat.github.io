@@ -2,5 +2,4 @@
 title: "Multivariate Statistics with Daria"
 ---
  
-Hello, World!
  

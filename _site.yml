@@ -2,13 +2,13 @@ output_dir: "."
 navbar:
   title: "Multivariate statistics with Daria"
   left:
-    - text: "Home"
+    - text: "Welcome"
       href: index.html
     - text: "About Me"
       href: about.html
     - text: "Plans"
       href: plans.html
-    - text: "Deadlines"
+    - text: "~~Dead~~lifelines"
       href: deadlines.html
   right: 
     - text: "Contact me"
