@@ -4,8 +4,6 @@ navbar:
   left:
     - text: "Welcome"
       href: index.html
-    - text: "About Me"
-      href: about.html
     - text: "Plans"
       href: plans.html
     - text: "lines"
