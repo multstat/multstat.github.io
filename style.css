@@ -1,9 +1,10 @@
 img {
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
   width: 800px;
   display: block;
   margin: 0 auto;
 }
 
-
-
-  

@@ -1,4 +1,3 @@
----
-title: "<em><font color='orange'> Учимся безболезненно смешивать эффекты </font></em>" 
----
 ![](mix.jpg)
+--- 
+    Автор изображения: Susan Brabeau

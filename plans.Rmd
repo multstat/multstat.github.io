@@ -1,5 +1,5 @@
 ---
-title: "Plans"
+title: "Материалы"
 output: 
   html_document:
     toc: true
@@ -8,54 +8,52 @@ output:
     theme: united
 ---
  
-# Overview 
+# Занятие 1
  
-This is a workspace for discussion. 
+Тема: О чем курс и каковы правила игры? Введение в модели с фиксированными эффектами
+  
+<a href="MSA_intro.pdf" title=>Introduction</a> 
  
-## Meetings 
+<a href="MSA_lecture1.pdf" title=>Lecture 1</a> 
  
-Tuesday: 15.00 \
-Thursday: 17.00 
+<a href="MSA_seminar_1.pdf" title=>Seminar 1</a> 
  
-## Workshops
+Reading: 
+
+<a href="Green et al., Dirty pool.pdf" title=>Dirty pool</a>  
+
+<a href="https://yadi.sk/i/4YsEBveY1j4nUw" title=>Stock, Watson, Chapter 10</a>  
+
+# Занятие 2
  
-Monday
-Friday
+Тема: FE-models VS RE-models
  
-# Summary 
+<a href="MSA_lecture2.pdf" title=>Lecture 2</a>  
  
-Rule 1. Communicate 
-Rule 2. Adjust 
-Rule 3. In advance 
- 
-## Trials (from the book)
- 
-There are two possible outcomes for each trial. Each field goal is a success or failure. Notice that we could further divide failures into other categories: too short, long enough but to the left of the uprights, long enough but to the right of the uprights, or some combinations of these. If our interest is only in whether the kick is successful, then differentiating among the modes of failure is not necessary (cited).
- 
-## North 
- 
-rom North's School, is looking for new of telling stories that can better engage diverse audiences. Read our inaugural post (cited)
- 
-## South 
- 
-Each field goal is a success or failure. Notice that we could further divide failures into other categories: too short, long enough but to the right of the uprights, long enough but to the right of the uprights, or some combinations of these. If our interest is only in whether the kick is successful, then differentiating among the modes of failure is not necessary (cited). 
- 
-## East 
- 
-Each field goal is a success or failure. Notice that we could further divide failures into other categories: too short, long enough but to the left of the uprights, long enough but to the right of the uprights, or some combinations of these. If our interest is only in whether the kick is successful, then differentiating among the modes of failure is not necessary (cited).
- 
-## West 
- 
-<font color='blue'>Практическое занятие 1 </font>Each field goal is a success or failure. Notice that we could further divide failures into other categories: too short, long enough but to the left of the uprights, long enough but to the right of the uprights, or some combinations of these. If our interest is only in whether the kick is successful, then differentiating among the modes of failure is not necessary (cited).
- 
-# Heckman models
- 
-## Reading
- 
-1) [Heckman in Stata](https://www.stata.com/manuals13/rheckman.pdf)
-2) <a href="Heckman_example_1.pdf" title=>Example 1</a> <i class="fa fa-camera-retro fa-2x"></i> 
- 
-## Lab 
- 
-1) <a href="lab1.R" title=>Lab session 1</a> 
- 
+<a href="MSA_lab1.R" title=>Lab1</a>  
+
+<a href="MSA_lab1.dta" title=>Data. Lab1</a>
+
+# Занятие 3
+
+Тема: FE-models (альтернативные спецификации, интерпретация, диагностики)
+
+<a href="MSA_lecture3.pdf" title=>Lecture 3</a> 
+
+<a href="MSA_lab2.R" title=>Lab2</a>
+
+<a href="MSA_lab2.dta" title=>Data. Lab2</a>
+
+Reading (optional):
+
+<a href="Kropko, Kubinec, 2018.pdf" title=>Kropko, Kubinec, 2018</a>
+
+<a href="Clark, Linzer, 2014.pdf" title=>Clark, Linzer, 2014</a>
+
+# Занятие 4
+
+Тема: FE-models + RE-models (практика)
+
+<a href="MSA_lab3.R" title=>Lab3</a>
+
+<a href="MSA_lab3.dta" title=>Data. Lab3</a>
