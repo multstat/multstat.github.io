@@ -1,5 +1,4 @@
 ---
-title: "<em><font color='orange'>Multivariate Statistics with Daria</font></em>"
+title: "<em><font color='orange'> Учимся безболезненно смешивать эффекты </font></em>" 
 ---
- 
- 
+![](mix.jpg)

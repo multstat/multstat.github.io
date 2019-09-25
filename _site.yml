@@ -1,24 +1,22 @@
 output_dir: "."
 navbar:
-  title: "Multivariate statistics with Daria"
+  title: "МСАП, 2019"
   left:
     - text: "Welcome"
       href: index.html
-    - text: "Plans"
+    - text: "Что порешать и почитать"
       href: plans.html
-    - text: "lines"
+    - text: "Важные даты"
       href: deadlines.html
   right: 
-    - text: "Contact me"
+    - text: "Help! Напиши Дарье"
       icon: fa-envelope-o
-      href: mailto:darysalnikova@yandex.ru; mar.sella@yandex.ru                    # CHANGE HERE 
-    - text: "GitHub"
-      icon: fa-github
-      href: https://github.com/Maria150719       # CHANGE HERE 
+      href: mailto:darysalnikova@yandex.ru                    # CHANGE HERE 
+
 output:
   html_document:
     theme: united
-    
+    css: style.css
     
     
     
