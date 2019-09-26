@@ -4,7 +4,7 @@ navbar:
   left:
     - text: "Welcome"
       href: index.html
-    - text: "Что порешать и почитать"
+    - text: "Материалы"
       href: plans.html
     - text: "Важные даты"
       href: deadlines.html
