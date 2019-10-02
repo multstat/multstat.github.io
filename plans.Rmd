@@ -57,3 +57,19 @@ Reading (optional):
 <a href="MSA_lab3.R" title=>Lab3</a>
 
 <a href="MSA_lab3.dta" title=>Data. Lab3</a>
+
+# Занятие 5
+
+Тема: проверочная работа по FE-, RE-models + первая лекция по mixed-effects models
+
+<a href="MSA_test11.pdf" title=>Проверочная (1 вариант)</a>
+
+<a href="MSA_test12.pdf" title=>Проверочная (2 вариант)</a>
+
+# Занятие 6
+
+Тема: спецификации моделей со смешанными эффектами, интерпретация
+
+<a href="MSA_seminar3.pdf" title=>Seminar 2</a>
+
+<a href="MSA_hw.pdf" title=>Домашнее задание для тренировки</a>
