@@ -2,3 +2,6 @@
 -------- | -----------------------------------
 27 сентября | Проверочная работа 1 (FE-, RE-models)
 3 октября | <a href="MSA_hw1.pdf" title=>Домашнее задание 1 (сдаваемое)</a> <a href="hw1.dta" title=>hw1.dta</a>
+28 октября | Проверочная работа 2 (ME-models)
+3 ноября | <a href="reflection_paper.pdf" title=>Домашнее задание 2 (сдаваемое). Reflection paper</a> 
+
