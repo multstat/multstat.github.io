@@ -83,7 +83,7 @@ Reading (optional):
 
 <a href="MSA_lecture5.pdf" title=>Lecture 5</a>
 
-<a href="MSA_lab4.R" title=>Lab4</a>
+<a href="MSA_lab4(UPD).R" title=>Lab4(UPD)</a>
 
 <a href="MSA_lab4.dta" title=>Data. Lab4</a>
 
@@ -111,3 +111,14 @@ Reading:
 <a href="Paper 1. Kaariainen, 2007.pdf" title=>Paper 1. Kaariainen, 2007</a>  
 
 <a href="Paper 2. Ibsen et al., 2019.pdf" title=>Paper 2. Ibsen et al., 2019</a> 
+
+# Занятие 9
+
+Тема: ME-models: спецификация, оценивание и тестирование моделей применительно к панельным данным
+
+<a href="MSA_lecture6.pdf" title=>Lecture 6</a>
+
+<a href="MSA_lab5.R" title=>Lab5</a>
+
+<a href="MSA_lab5.dta" title=>Data. Lab5</a>
+
