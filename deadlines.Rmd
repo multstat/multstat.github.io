@@ -6,5 +6,6 @@
 3 ноября | <a href="reflection_paper.pdf" title=>Домашнее задание 2 (сдаваемое). Reflection paper</a> 
 20 ноября | по желанию сдается <a href="research_proposal.pdf" title=>research proposal</a> не для оценки, а для получения комментариев. Чем раньше пришлете, тем быстрее будут комментарии
 25 ноября | контрольная работа
-13 декабря | эссе
+3 декабря | <a href="MSA_hw3.pdf" title=>Домашнее задание 3 (сдаваемое)</a> <a href="MSA_hw3.dta" title=>MSA_hw3.dta</a>
+13 декабря | эссе 
 23 декабря | экзамен

@@ -122,4 +122,49 @@ Reading:
 
 <a href="MSA_lab5.dta" title=>Data. Lab5</a>
 
+# Занятие 10
+
+Тема: проверочная работа по ME-моделям + дополнительно: визуализация ME-моделей
+
+<a href="MSA_test2_1.pdf" title=>Проверочная 2 (1 вариант) </a> 
+ 
+<a href="MSA_test2_2.pdf" title=>Проверочная 2 (2 вариант)</a> 
+ 
+<a href="MSA_lab6.R" title=>Lab 6</a> 
+ 
+<a href="MSA_lab6_1.dta" title=>MSA_lab6_1.dta</a> 
+
+<a href="MSA_lab6_2.csv" title=>MSA_lab6_2.csv</a> 
+
+# Занятие 11
+
+Тема: Эндогенность. Введение
+
+<a href="MSA_lecture7.pdf" title=>Lecture 7</a> 
+ 
+<a href="MSA_seminar3.pdf" title=>Seminar 3</a> 
+
+# Занятие 12
+
+Тема: Эндогенность. Эксперименты. Оценивание treatment effect  
+
+<a href="MSA_lecture8.pdf" title=>Lecture 8</a> 
+ 
+<a href="MSA_seminar4.pdf" title=>Seminar 4</a> 
+
+Тема: инструментальные переменные
+
+Reading: 
+
+<a href="https://yadi.sk/i/4YsEBveY1j4nUw" title=>Stock, Watson, Chapter 12</a>  
+
+
+# Занятие 13 
+
+Тема: инструментальные переменные
+
+<a href="MSA_lab7.R" title=>Lab 7</a> 
+ 
+<a href="MSA_lab7.Rda" title=>Lab 7. Data</a> 
+
 
