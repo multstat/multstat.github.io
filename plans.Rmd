@@ -7,6 +7,7 @@ output:
     toc_float: true
     theme: united
 ---
+## Многомерный статистический анализ в политологии
  
 # Занятие 1
  
@@ -166,5 +167,19 @@ Reading:
 <a href="MSA_lab7.R" title=>Lab 7</a> 
  
 <a href="MSA_lab7.Rda" title=>Lab 7. Data</a> 
+
+## Анализ категориальных данных 
+
+# CDA. Занятие 1
+
+Тема: модели бинарного выбора
+
+<a href="CDA_seminar1.pdf" title=>CDA. Seminar 1</a> 
+
+Домашнее задание к 24 января: 
+
+1) Reading: Стр. 34 - 52, 79 - 82 в <a href="Long.pdf" title=>Long. CDA</a> 
+
+2) Дорешать задания 1, 2, 4 (пункты 4 и 5) из файла к семинару
 
 
