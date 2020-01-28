@@ -182,4 +182,17 @@ Reading:
 
 2) Дорешать задания 1, 2, 4 (пункты 4 и 5) из файла к семинару
 
+# CDA. Занятие 2
+
+Тема: модели бинарного выбора, интерпретация
+
+<a href="CDA_lab1.R" title=>CDA. Lab 1</a> 
+
+<a href="CDA_lab1.dta" title=>CDA. Lab 1. Data</a> 
+
+Домашнее задание к 8 февраля (сдается на проверку):
+<a href="CDA_hw2.pdf" title=>CDA. ДЗ</a> 
+
+<a href="CDAhw2.dta" title=>CDAhw2.dta</a> 
+
 
