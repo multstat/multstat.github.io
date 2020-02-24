@@ -195,4 +195,15 @@ Reading:
 
 <a href="CDAhw2.dta" title=>CDAhw2.dta</a> 
 
+# CDA. Занятие 3
+
+Тема: модели бинарного выбора, оценка качества моделей (часть 1)
+
+<a href="CDA_lectures_1_2.pdf" title=>CDA. Lectures 1-2 </a> 
+
+Домашнее задание к 28 февраля (проверяем на семинаре, сдавать не нужно):
+<a href="CDA_hw3.pdf" title=>CDA. ДЗ</a> 
+
+
+
 
