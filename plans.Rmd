@@ -213,6 +213,19 @@ Reading:
 Домашнее задание к 10 марта (сдается на проверку):
 <a href="CDA_hw4.pdf" title=>CDA. ДЗ</a> 
 
+# CDA. Занятие 5
+
+Тема: модели с порядковым откликом
+
+Deadline: 26 марта. Подготовка к вебинару - reading list:
+
+1) Scott Long, Chapter 5 (ordinal outcomes)
+
+2) <a href="https://yadi.sk/i/fVWjlOvSeH074w" title=>Agresti A., pp. 275 - 281 </a> 
+
+
+
+
 
 
 
