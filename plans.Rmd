@@ -223,6 +223,16 @@ Deadline: 26 марта. Подготовка к вебинару - reading list
 
 2) <a href="https://yadi.sk/i/fVWjlOvSeH074w" title=>Agresti A., pp. 275 - 281 </a> 
 
+Reading (optional): 
+
+1) <a href="Brant test.pdf" title=>Brant test</a> 
+
+2) <a href="gologit models.pdf" title=>Gologit models</a> 
+
+3) <a href="example Esteban et al..pdf" title=>example Esteban et al.</a> 
+
+
+
 
 
 
