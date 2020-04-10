@@ -231,6 +231,16 @@ Reading (optional):
 
 3) <a href="example Esteban et al..pdf" title=>example Esteban et al.</a> 
 
+# CDA. Занятие 6
+
+Тема: модели с порядковым откликом (продолжение) и модели с мультиномиальным откликом
+
+Практикум после занятия к 12 апреля:
+
+2) <a href="CDA_Lab4_3_12April.pdf" title=>Задание</a> 
+
+3) <a href="CDA_Lab4_2.dta" title=>Данные к первому пункту</a> 
+
 
 
 
