@@ -217,6 +217,8 @@ Reading:
 
 Тема: модели с порядковым откликом
 
+<a href="CDA_lecture__3.pdf" title=>CDA. Lecture 5 </a> 
+
 Deadline: 26 марта. Подготовка к вебинару - reading list:
 
 1) Scott Long, Chapter 5 (ordinal outcomes)
@@ -233,7 +235,9 @@ Reading (optional):
 
 # CDA. Занятие 6
 
-Тема: модели с порядковым откликом (продолжение) и модели с мультиномиальным откликом
+Тема: модели с порядковым откликом (продолжение) и мультиномиальные логит-модели
+
+<a href="CDA_lecture__4.pdf" title=>CDA. Lecture 6 </a> 
 
 Практикум после занятия к 12 апреля:
 
