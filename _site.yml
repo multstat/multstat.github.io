@@ -14,6 +14,6 @@ navbar:
 output:
   html_document:
     theme: united
-    css: style.css
+
     
     
