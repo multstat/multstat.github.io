@@ -10,6 +10,9 @@ navbar:
     - text: "Help! Напиши Дарье"
       icon: fa-envelope-o
       href: mailto:darysalnikova@yandex.ru                    # CHANGE HERE 
+    - text: "Напиши Веронике"
+      icon: fa-envelope-o
+      href: mailto:vayanchuk@edu.hse.ru                   # CHANGE HERE 
 
 output:
   html_document:
