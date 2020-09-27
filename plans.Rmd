@@ -15,9 +15,7 @@ output:
   
 <a href="MSA_intro_2020.pdf" title=>Introduction</a> 
  
-<a href="MSA_lecture1.pdf" title=>Lecture 1</a> 
- 
-<a href="MSA_seminar_1.pdf" title=>Seminar 1</a> 
+<a href="MSA_lecture1_2020.pdf" title=>Lecture 1</a> 
  
 Reading: 
 
@@ -29,28 +27,14 @@ Reading:
  
 Тема: FE-models VS RE-models
  
-<a href="MSA_lecture2.pdf" title=>Lecture 2</a>  
+<a href="MSA_lecture2_2020.pdf" title=>Lecture 2</a>  
  
-<a href="MSA_lab1.R" title=>Lab1</a>  
+<a href="MSA_lab1_2020.R" title=>Lab1</a>  
 
 <a href="MSA_lab1.dta" title=>Data. Lab1</a>
 
-# Занятие 3
-
-Тема: FE-models (альтернативные спецификации, интерпретация, диагностики)
-
-<a href="MSA_lecture3.pdf" title=>Lecture 3</a> 
-
-<a href="MSA_lab2.R" title=>Lab2</a>
-
-<a href="MSA_lab2.dta" title=>Data. Lab2</a>
-
-Reading (optional):
-
-<a href="Kropko, Kubinec, 2018.pdf" title=>Kropko, Kubinec, 2018</a>
-
-<a href="Clark, Linzer, 2014.pdf" title=>Clark, Linzer, 2014</a>
-
+<a href="MSA_seminar_1_2020.pdf" title=>Seminar 1</a> 
+ 
 
 
 
