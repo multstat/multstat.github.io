@@ -23,7 +23,7 @@ Reading:
 
 <a href="https://yadi.sk/i/4YsEBveY1j4nUw" title=>Stock, Watson, Chapter 10</a>  
 
-# Занятие 2
+# Занятие 2 
  
 Тема: FE-models VS RE-models
  
@@ -32,6 +32,8 @@ Reading:
 <a href="MSA_lab1_2020.R" title=>Lab1</a>  
 
 <a href="MSA_lab1.dta" title=>Data. Lab1</a>
+
+# Занятие 3
 
 <a href="MSA_seminar_1_2020.pdf" title=>Seminar 1</a> 
  
