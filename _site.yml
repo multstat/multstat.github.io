@@ -1,9 +1,7 @@
 output_dir: "."
 navbar:
-  title: "МСАП, 2019"
+  title: "МСАП, 2020"
   left:
-    - text: "Welcome"
-      href: index.html
     - text: "Материалы"
       href: plans.html
     - text: "Важные даты"
