@@ -36,6 +36,12 @@ Reading:
 # Занятие 3
 
 <a href="MSA_seminar_1_2020.pdf" title=>Seminar 1</a> 
+
+# Занятие 4
+ 
+Тема: FE-models VS RE-models
+ 
+<a href="MSA_lab2 .R" title=>Lab2</a>  
  
 Reading: 
 
