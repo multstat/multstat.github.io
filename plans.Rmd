@@ -49,7 +49,7 @@ Reading:
 
 <a href="allison_fixed_effects.pdf" title => Allison, FE-models
 
-<a href="Beck, Katz.pdf" title => Beck, Katz, (F)GLS
+<a href="Beck, Katz.pdf" title => Beck, Katz, (F)GLS</a> 
 
 # Занятие 5
 
