@@ -51,7 +51,9 @@ Reading:
 
 <a href="Beck, Katz.pdf" title => Beck, Katz, (F)GLS
 
+# Занятие 4
 
+<a href="MSA_lecture3.pdf" title=>Lecture 3</a>  
 
 
 
