@@ -1,6 +1,6 @@
 output_dir: "."
 navbar:
-  title: "МСА, 2020"
+  title: "3 курс, 2020-2021"
   left:
     - text: "Материалы"
       href: plans.html
@@ -10,9 +10,9 @@ navbar:
     - text: "Help! Напиши Дарье"
       icon: fa-envelope-o
       href: mailto:darysalnikova@yandex.ru                    # CHANGE HERE 
-    - text: "Напиши Веронике"
+    - text: "Напиши Иоанну"
       icon: fa-envelope-o
-      href: mailto:vayanchuk@edu.hse.ru                   # CHANGE HERE 
+      href: mailto:iadovgopolyy@edu.hse.ru                  # CHANGE HERE 
 
 output:
   html_document:

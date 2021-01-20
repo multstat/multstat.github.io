@@ -81,7 +81,14 @@ Reading:
  
 <a href="Paper 2. Ibsen et al., 2019.pdf" title=>Paper 2. Ibsen et al., 2019</a> 
 
+## Анализ категориальных данных
 
+# Занятие 1
 
+<a href="CDA_intro.pdf" title=>Презентация-введение</a> 
 
+Тема: повторение линейной регрессии и модели с бинарным откликом
 
+<a href="CDA_lecture1_2021.pdf" title=>Занятие 1</a> 
+
+<a href="Long.pdf" title=>Long S. CDA</a> 
