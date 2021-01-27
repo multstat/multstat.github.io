@@ -92,3 +92,19 @@ Reading:
 <a href="CDA_lecture1_2021.pdf" title=>Занятие 1</a> 
 
 <a href="Long.pdf" title=>Long S. CDA</a> 
+
+# Занятие 2
+
+Тема: модели с бинарным откликом, подходы к спецификации и интерпретация в терминах отношения шансов
+
+<a href="CDA_seminar1_2021.pdf" title=>Семинар 1</a> 
+
+<a href="CDA_lab1.R" title=>Lab 1</a> 
+
+<a href="CDA_lab1.dta" title=>CDA_lab1.dta</a>
+
+<a href="CDA_hw1_2021.pdf" title=>Домашнее задание 1</a>
+
+
+
+
