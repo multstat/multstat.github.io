@@ -113,4 +113,17 @@ Reading:
 
 <a href="CDAhw2.dta" title=>CDAhw2.dta</a>
 
+# Занятие 4 
+
+Тема: модели бинарного выбора. Предварительные диагностики: pseudo R-squared, Hosmer-Lemeshow test. ROC-curve, AUC. Выбор порога для классификации 
+
+<a href="CDA_lecture2.pdf" title=>Презентация к лекции </a>
+
+<a href="CDA_lab2.R" title=>CDA_lab2.R</a>
+
+<a href="CDA_lab2_2_tasks.R" title=>Задания для практики</a>
+
+<a href="lab2_2.dta" title=>Данные для практического задания</a>
+
+
 
