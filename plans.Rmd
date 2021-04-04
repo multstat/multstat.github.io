@@ -161,3 +161,5 @@ Reading:
 Домашнее задание (дедлайн - 12 апреля): 
 
 <a href="CDA_hw4_2021.pdf" title=>Домашнее задание</a>
+
+<a href="CDA_LO2.pdf" title=>Learning Outcomes для подготовки к проверочной</a>
