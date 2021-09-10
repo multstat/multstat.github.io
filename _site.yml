@@ -2,7 +2,7 @@ output_dir: "."
 navbar:
   title: "3 курс, 2021-2022"
   left:
-    - text: "Материалы"
+    - text: "Материал"
       href: plans.html
     - text: "Важные даты"
       href: deadlines.html
