@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
@@ -14,12 +13,22 @@
 
 <title>Материалы</title>
 
+<script src="site_libs/header-attrs-2.10/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/united.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
@@ -29,12 +38,16 @@
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
-<style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -47,32 +60,7 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
+
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 
@@ -83,10 +71,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -103,40 +87,13 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 51px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h2 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h3 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h4 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h5 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h6 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -164,7 +121,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -176,7 +133,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -187,10 +144,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -202,7 +172,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -238,6 +207,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -266,6 +236,12 @@ $(document).ready(function () {
 }
 }
 
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
 
 .toc-content {
   padding-left: 30px;
@@ -321,7 +297,7 @@ div.tocify {
 
 
 <!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row-fluid">
+<div class="row">
 <div class="col-xs-12 col-sm-4 col-md-3">
 <div id="TOC" class="tocify">
 </div>
@@ -340,7 +316,7 @@ div.tocify {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">МСАП, 2019</a>
+      <a class="navbar-brand" href="index.html">МСАП, 2021</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
@@ -367,7 +343,7 @@ div.tocify {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -376,172 +352,18 @@ div.tocify {
 </div>
 
 
-<div id="----" class="section level2">
-<h2>Многомерный статистический анализ в политологии</h2>
+<div id="регрессионный-анализ-панельные-данные-и-каузальность" class="section level2">
+<h2>Регрессионный анализ: панельные данные и каузальность</h2>
 </div>
-<div id="-1" class="section level1">
+<div id="занятие-1" class="section level1">
 <h1>Занятие 1</h1>
 <p>Тема: О чем курс и каковы правила игры? Введение в модели с фиксированными эффектами</p>
-<p><a href="MSA_intro.pdf" title=>Introduction</a></p>
+<p><a href="MSA_intro.pdf" title=>Intro</a></p>
 <p><a href="MSA_lecture1.pdf" title=>Lecture 1</a></p>
 <p><a href="MSA_seminar_1.pdf" title=>Seminar 1</a></p>
 <p>Reading:</p>
 <p><a href="Green et al., Dirty pool.pdf" title=>Dirty pool</a></p>
 <p><a href="https://yadi.sk/i/4YsEBveY1j4nUw" title=>Stock, Watson, Chapter 10</a></p>
-</div>
-<div id="-2" class="section level1">
-<h1>Занятие 2</h1>
-<p>Тема: FE-models VS RE-models</p>
-<p><a href="MSA_lecture2.pdf" title=>Lecture 2</a></p>
-<p><a href="MSA_lab1.R" title=>Lab1</a></p>
-<p><a href="MSA_lab1.dta" title=>Data. Lab1</a></p>
-</div>
-<div id="-3" class="section level1">
-<h1>Занятие 3</h1>
-<p>Тема: FE-models (альтернативные спецификации, интерпретация, диагностики)</p>
-<p><a href="MSA_lecture3.pdf" title=>Lecture 3</a></p>
-<p><a href="MSA_lab2.R" title=>Lab2</a></p>
-<p><a href="MSA_lab2.dta" title=>Data. Lab2</a></p>
-<p>Reading (optional):</p>
-<p><a href="Kropko, Kubinec, 2018.pdf" title=>Kropko, Kubinec, 2018</a></p>
-<p><a href="Clark, Linzer, 2014.pdf" title=>Clark, Linzer, 2014</a></p>
-</div>
-<div id="-4" class="section level1">
-<h1>Занятие 4</h1>
-<p>Тема: FE-models + RE-models (практика)</p>
-<p><a href="MSA_lab3.R" title=>Lab3</a></p>
-<p><a href="MSA_lab3.dta" title=>Data. Lab3</a></p>
-</div>
-<div id="-5" class="section level1">
-<h1>Занятие 5</h1>
-<p>Тема: проверочная работа по FE-, RE-models + первая лекция по mixed-effects models</p>
-<p><a href="MSA_test11.pdf" title=>Проверочная (1 вариант)</a></p>
-<p><a href="MSA_test12.pdf" title=>Проверочная (2 вариант)</a></p>
-</div>
-<div id="-6" class="section level1">
-<h1>Занятие 6</h1>
-<p>Тема: спецификации моделей со смешанными эффектами (ME-models), интерпретация</p>
-<p><a href="MSA_lecture4.pdf" title=>Lecture 4</a></p>
-<p><a href="MSA_seminar3.pdf" title=>Seminar 2</a></p>
-<p><a href="MSA_hw.pdf" title=>Домашнее задание для тренировки</a></p>
-</div>
-<div id="-7" class="section level1">
-<h1>Занятие 7</h1>
-<p>Тема: ME-models: спецификация, оценивание и тестирование моделей</p>
-<p><a href="MSA_lecture5.pdf" title=>Lecture 5</a></p>
-<p><a href="MSA_lab4(UPD).R" title=>Lab4(UPD)</a></p>
-<p><a href="MSA_lab4.dta" title=>Data. Lab4</a></p>
-<p>Домашнее задание к 11 октября:</p>
-<ol style="list-style-type: decimal">
-<li><p>прочитать стр. 218 – 224 в этой <a href="Steenbergen,Jones, 2002.pdf" title=>статье</a></p></li>
-<li><p>подумать то, насколько содержательно оправданны допущения моделей со смешанными эффектами</p></li>
-<li><p>критически осмыслить предложенное авторами обоснование для использования этого класса моделей</p></li>
-</ol>
-</div>
-<div id="-8" class="section level1">
-<h1>Занятие 8</h1>
-<p>Reading:</p>
-<p><a href="https://yadi.sk/d/ci9V-ylSU4Kh3A" title=>Hox,читать только про спефикации моделей, глава 2</a></p>
-<p><a href="Bell et al., 2019.pdf" title=>Bell et al., 2019</a><br />
-Примечание: модели со смешанными эффектами обозначены в статье как within-between RE-model</p>
-<p><a href="BLUP.pdf" title=>BLUP, MLE &amp; REML</a></p>
-<p>Домашнее задание к 3 ноября. Написать reflection paper на одну из статей, приведенных ниже</p>
-<p><a href="Paper 1. Kaariainen, 2007.pdf" title=>Paper 1. Kaariainen, 2007</a></p>
-<p><a href="Paper 2. Ibsen et al., 2019.pdf" title=>Paper 2. Ibsen et al., 2019</a></p>
-</div>
-<div id="-9" class="section level1">
-<h1>Занятие 9</h1>
-<p>Тема: ME-models: спецификация, оценивание и тестирование моделей применительно к панельным данным</p>
-<p><a href="MSA_lecture6.pdf" title=>Lecture 6</a></p>
-<p><a href="MSA_lab5.R" title=>Lab5</a></p>
-<p><a href="MSA_lab5.dta" title=>Data. Lab5</a></p>
-</div>
-<div id="-10" class="section level1">
-<h1>Занятие 10</h1>
-<p>Тема: проверочная работа по ME-моделям + дополнительно: визуализация ME-моделей</p>
-<p><a href="MSA_test2_1.pdf" title=>Проверочная 2 (1 вариант) </a></p>
-<p><a href="MSA_test2_2.pdf" title=>Проверочная 2 (2 вариант)</a></p>
-<p><a href="MSA_lab6.R" title=>Lab 6</a></p>
-<p><a href="MSA_lab6_1.dta" title=>MSA_lab6_1.dta</a></p>
-<p><a href="MSA_lab6_2.csv" title=>MSA_lab6_2.csv</a></p>
-</div>
-<div id="-11" class="section level1">
-<h1>Занятие 11</h1>
-<p>Тема: Эндогенность. Введение</p>
-<p><a href="MSA_lecture7.pdf" title=>Lecture 7</a></p>
-<p><a href="MSA_seminar3.pdf" title=>Seminar 3</a></p>
-</div>
-<div id="-12" class="section level1">
-<h1>Занятие 12</h1>
-<p>Тема: Эндогенность. Эксперименты. Оценивание treatment effect</p>
-<p><a href="MSA_lecture8.pdf" title=>Lecture 8</a></p>
-<p><a href="MSA_seminar4.pdf" title=>Seminar 4</a></p>
-<p>Тема: инструментальные переменные</p>
-<p>Reading:</p>
-<p><a href="https://yadi.sk/i/4YsEBveY1j4nUw" title=>Stock, Watson, Chapter 12</a></p>
-</div>
-<div id="-13" class="section level1">
-<h1>Занятие 13</h1>
-<p>Тема: инструментальные переменные</p>
-<p><a href="MSA_lab7.R" title=>Lab 7</a></p>
-<p><a href="MSA_lab7.Rda" title=>Lab 7. Data</a></p>
-<div id="--" class="section level2">
-<h2>Анализ категориальных данных</h2>
-</div>
-</div>
-<div id="cda.--1" class="section level1">
-<h1>CDA. Занятие 1</h1>
-<p>Тема: модели бинарного выбора</p>
-<p><a href="CDA_seminar1.pdf" title=>CDA. Seminar 1</a></p>
-<p>Домашнее задание к 24 января:</p>
-<ol style="list-style-type: decimal">
-<li><p>Reading: Стр. 34 - 52, 79 - 82 в <a href="Long.pdf" title=>Long. CDA</a></p></li>
-<li><p>Дорешать задания 1, 2, 4 (пункты 4 и 5) из файла к семинару</p></li>
-</ol>
-</div>
-<div id="cda.--2" class="section level1">
-<h1>CDA. Занятие 2</h1>
-<p>Тема: модели бинарного выбора, интерпретация</p>
-<p><a href="CDA_lab1.R" title=>CDA. Lab 1</a></p>
-<p><a href="CDA_lab1.dta" title=>CDA. Lab 1. Data</a></p>
-<p>Домашнее задание к 8 февраля (сдается на проверку): <a href="CDA_hw2.pdf" title=>CDA. ДЗ</a></p>
-<p><a href="CDAhw2.dta" title=>CDAhw2.dta</a></p>
-</div>
-<div id="cda.--3" class="section level1">
-<h1>CDA. Занятие 3</h1>
-<p>Тема: модели бинарного выбора, оценка качества моделей (часть 1)</p>
-<p><a href="CDA_lectures_1_2.pdf" title=>CDA. Lectures 1-2 </a></p>
-<p>Домашнее задание к 28 февраля (проверяем на семинаре, сдавать не нужно): <a href="CDA_hw3.pdf" title=>CDA. ДЗ</a></p>
-</div>
-<div id="cda.--4" class="section level1">
-<h1>CDA. Занятие 4</h1>
-<p>Тема: модели бинарного выбора, оценка качества моделей (часть 2)</p>
-<p><a href="CDA_lecture2.pdf" title=>CDA. Lectures 3-4 </a></p>
-<p>Домашнее задание к 10 марта (сдается на проверку): <a href="CDA_hw4.pdf" title=>CDA. ДЗ</a></p>
-</div>
-<div id="cda.--5" class="section level1">
-<h1>CDA. Занятие 5</h1>
-<p>Тема: модели с порядковым откликом</p>
-<p><a href="CDA_lecture__3.pdf" title=>CDA. Lecture 5 </a></p>
-<p>Deadline: 26 марта. Подготовка к вебинару - reading list:</p>
-<ol style="list-style-type: decimal">
-<li><p>Scott Long, Chapter 5 (ordinal outcomes)</p></li>
-<li><p><a href="https://yadi.sk/i/fVWjlOvSeH074w" title=>Agresti A., pp. 275 - 281 </a></p></li>
-</ol>
-<p>Reading (optional):</p>
-<ol style="list-style-type: decimal">
-<li><p><a href="Brant test.pdf" title=>Brant test</a></p></li>
-<li><p><a href="gologit models.pdf" title=>Gologit models</a></p></li>
-<li><p><a href="example Esteban et al..pdf" title=>example Esteban et al.</a></p></li>
-</ol>
-</div>
-<div id="cda.--6" class="section level1">
-<h1>CDA. Занятие 6</h1>
-<p>Тема: модели с порядковым откликом (продолжение) и мультиномиальные логит-модели</p>
-<p><a href="CDA_lecture.pdf" title=>CDA. Lecture 6 </a></p>
-<p>Практикум после занятия к 12 апреля:</p>
-<p><a href="CDA_Lab4_3_12April.pdf" title=>Задание</a></p>
-<p><a href="CDA_Lab4_2.dta" title=>Данные к первому пункту</a></p>
 </div>
 
 
@@ -555,7 +377,7 @@ div.tocify {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
@@ -573,7 +395,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>
@@ -582,6 +404,9 @@ $(document).ready(function () {
 
 <script>
 $(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
 
     // move toc-ignore selectors from section div to header
     $('div.section.toc-ignore')
@@ -594,7 +419,7 @@ $(document).ready(function ()  {
       theme: "bootstrap3",
       context: '.toc-content',
       hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
       },
       ignoreSelector: ".toc-ignore",
       scrollTo: 0
