@@ -17,4 +17,3 @@ output:
 
 <a href="RAPDC_seminar1_2021.pdf" title=>Seminar 1</a> 
 
- 
