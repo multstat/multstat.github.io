@@ -13,7 +13,7 @@ output:
  
 Тема: О чем курс и каковы правила игры? Введение в модели с фиксированными эффектами
   
-<a href="MSA_intro.pdf" title=>Intro</a> 
+<a href="MSA_intro.pdf" title=>Intro presentation</a> 
  
 <a href="MSA_lecture1.pdf" title=>Lecture 1</a> 
  
